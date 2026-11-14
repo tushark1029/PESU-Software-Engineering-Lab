@@ -1,0 +1,9 @@
+Initial starter test results (2 tests):
+
+Code coverage:
+Name                Stmts   Miss  Cover
+atm_withdrawal.py      34     20    41%
+
+Branch coverage:
+Name                Stmts   Miss Branch BrPart Cover
+atm_withdrawal.py      34     20     22      7   38%
