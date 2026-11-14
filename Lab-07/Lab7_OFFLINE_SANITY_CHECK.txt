@@ -1,0 +1,22 @@
+Offline validation of the fixed application (standard-library deterministic checks; this is NOT a Hypothesis run)
+
+Application command:
+  python atm_withdrawal.py
+
+Output:
+  ATM Withdrawal Processor
+  Withdrawal: 15000
+  PIN check: ok
+  Note breakup (1,200): (2, 1, 0)
+
+Additional deterministic property checks:
+  5,000 generated withdrawal combinations
+  10,001 note-breakup amounts (0 through 1,000,000 in steps of 100)
+  200 PIN-state combinations
+  7 invalid-input rejection checks
+
+Result:
+  Offline property checks passed: 15208
+
+Limitation:
+  Hypothesis could not be installed in this execution environment because the package index was unreachable. Run `python -m pip install -r requirements.txt` and `python -m pytest -v test_atm_withdrawal.py` locally to obtain the required Hypothesis results and screenshots.
