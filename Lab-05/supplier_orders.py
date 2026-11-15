@@ -108,7 +108,9 @@ def pending_count(connection: sqlite3.Connection) -> int:
 
 def main() -> None:
     """Run a small demonstration of the supplier order workflow."""
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    logging.basicConfig(
+        level=logging.INFO, format="%(levelname)s: %(message)s"
+    )
     connection = create_connection()
     try:
         place_order(connection, "Acme Steel", "rods", 40)
