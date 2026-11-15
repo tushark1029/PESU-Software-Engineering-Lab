@@ -43,6 +43,7 @@ def test_pin_check_paths():
 
 def test_note_breakup_paths():
     assert note_breakup(700) == (1, 1, 0)
+    assert note_breakup(0) == (0, 0, 0)
     assert note_breakup(600) == (1, 0, 1)
     with pytest.raises(ValueError, match="invalid amount"):
         note_breakup(650)
