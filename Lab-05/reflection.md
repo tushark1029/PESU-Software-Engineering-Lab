@@ -1,4 +1,4 @@
-# Lab 5 - Reflection
+﻿# Lab 5 - Reflection
 
 **Project:** Supplier Purchase Order Tracker  
 **Student:** Tushar Vibhakar Kulkarni  
@@ -22,6 +22,6 @@ The SQL built through string interpolation and the shell command assembled from 
 
 Static analysis encourages consistent naming, clearer documentation, safer database operations and cleaner formatting. It can detect many suspicious patterns quickly, but it cannot prove that a program is correct or understand every business requirement. The code must still be run and tested with representative inputs, including invalid values and edge cases.
 
-## Verification note
+## Verification results
 
-The final Pylint score and the final Bandit and Flake8 results must be copied from the tool-generated files in `reports/after/` after running `run_lab5_analysis.bat`. They are intentionally not guessed here.
+The actual final Pylint score, Bandit findings, Flake8 output and functional regression test results are recorded in `reports/analysis_summary.txt` and the files under `reports/after/`.

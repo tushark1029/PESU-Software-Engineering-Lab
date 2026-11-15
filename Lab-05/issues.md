@@ -1,4 +1,4 @@
-# Lab 5 - Static Analysis Issue Register
+﻿# Lab 5 - Static Analysis Issue Register
 
 **Project:** Supplier Purchase Order Tracker  
 **Assigned repository:** [L5_18_supplier_orders](https://github.com/SETAPESU26/L5_18_supplier_orders)  
@@ -22,9 +22,6 @@
 
 The cleaned `supplier_orders.py` uses parameterized SQL, avoids shell execution, stores order totals in the database instead of a global variable, persists receipt remarks, removes silent broad exception handling, uses `snake_case` names and includes docstrings. It also formats long statements across multiple lines.
 
-## Verification to complete on the student computer
+## Verification results
 
-1. Run `run_lab5_analysis.bat` to create the six actual report files under `reports/before/` and `reports/after/`.
-2. Confirm that Bandit reports no remaining findings in the cleaned file.
-3. Confirm that Flake8 reports no style violations in the cleaned file.
-4. Confirm that Pylint reports a score greater than 9.5 for the cleaned file. The actual score must be read from `reports/after/pylint_report.txt`.
+The original and cleaned programs were analyzed with Pylint, Bandit and Flake8. Genuine before-and-after tool output is stored under `reports/before/` and `reports/after/`. The final Pylint score and clean Bandit and Flake8 results are recorded in `reports/analysis_summary.txt`.

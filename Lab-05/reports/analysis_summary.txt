@@ -1,0 +1,14 @@
+﻿Lab 5 Static Analysis Verification Summary
+Student: Tushar Vibhakar Kulkarni
+SRN: PES2UG24AM174
+Project: Supplier Purchase Order Tracker
+
+Pylint final score: 10 / 10 (required: greater than 9.5)
+Bandit final result: No issues identified
+Flake8 final result: No style violations
+Functional regression tests: 5 passed
+
+Before reports: reports/before/
+After reports: reports/after/
+Stage reports: reports/stage_checks/
+Tool versions: reports/tool_versions.txt

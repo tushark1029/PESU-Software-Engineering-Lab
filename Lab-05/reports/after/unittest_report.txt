@@ -1,0 +1,10 @@
+test_non_positive_quantity_is_rejected (test_supplier_orders.SupplierOrdersTests.test_non_positive_quantity_is_rejected) ... ok
+test_order_totals_and_pending_count (test_supplier_orders.SupplierOrdersTests.test_order_totals_and_pending_count) ... ok
+test_received_order_saves_remarks_and_cleanup (test_supplier_orders.SupplierOrdersTests.test_received_order_saves_remarks_and_cleanup) ... ok
+test_sql_like_supplier_text_is_stored_as_data (test_supplier_orders.SupplierOrdersTests.test_sql_like_supplier_text_is_stored_as_data) ... ok
+test_unknown_order_is_rejected (test_supplier_orders.SupplierOrdersTests.test_unknown_order_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

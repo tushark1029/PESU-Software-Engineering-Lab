@@ -1,0 +1,2 @@
+1 540
+INFO: Notifying warehouse about supplier: Acme
